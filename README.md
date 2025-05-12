@@ -1,15 +1,6 @@
-# Maze V7
-![Снимок](https://i.ibb.co/93TrJq0/image.png)
+# Maze 
+<a href="Visuals"><img src="https://i.ibb.co/HfpDmkHD/image.png" alt="image" border="0"></a>
 
-![Снимок](https://i.ibb.co/0t1dkk4/image.png)
+<a href="Aim Assist"><img src="https://i.ibb.co/F4164Vmq/image.png" alt="image" border="0"></a>
 
-![Снимок](https://i.ibb.co/MsmBKGh/image.png)
-
-![Снимок](https://i.ibb.co/1qpC93x/image.png)
-
-![Снимок](https://i.ibb.co/xSCPbtq/image.png)
-
-
-![Снимок](https://i.ibb.co/p45y1yt/image.png)
-
-![Снимок](https://i.ibb.co/m58MRzV/image.png)
+<a href="Misc"><img src="https://i.ibb.co/pvjhbJbq/image.png" alt="image" border="0"></a>
