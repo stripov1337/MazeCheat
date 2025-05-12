@@ -579,26 +579,6 @@
         ],
         "parent": "C_BaseTrigger"
       },
-      "CBreachCharge": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_CSWeaponBase"
-      },
-      "CBreachChargeProjectile": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_BaseGrenade"
-      },
-      "CBumpMine": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_CSWeaponBase"
-      },
-      "CBumpMineProjectile": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_BaseGrenade"
-      },
       "CBuoyancyHelper": {
         "fields": {
           "m_flFluidDensity": 28,
@@ -755,70 +735,74 @@
       },
       "CCSPlayerController": {
         "fields": {
-          "m_bAbandonAllowsSurrender": 2030,
-          "m_bAbandonOffersInstantSurrender": 2031,
-          "m_bCanControlObservedBot": 2056,
-          "m_bCannotBeKicked": 2028,
-          "m_bControllingBot": 2048,
-          "m_bDisconnection1MinWarningPrinted": 2032,
-          "m_bEverFullyConnected": 2029,
-          "m_bEverPlayedOnTeam": 1884,
-          "m_bHasBeenControlledByPlayerThisRound": 2050,
+          "m_bAbandonAllowsSurrender": 2050,
+          "m_bAbandonOffersInstantSurrender": 2051,
+          "m_bCanControlObservedBot": 2080,
+          "m_bCannotBeKicked": 2048,
+          "m_bControllingBot": 2072,
+          "m_bDisconnection1MinWarningPrinted": 2052,
+          "m_bEverFullyConnected": 2049,
+          "m_bEverPlayedOnTeam": 1892,
+          "m_bFireBulletsSeedSynchronized": 2157,
+          "m_bHasBeenControlledByPlayerThisRound": 2074,
           "m_bHasCommunicationAbuseMute": 1860,
-          "m_bHasControlledBotThisRound": 2049,
-          "m_bIsPlayerNameDirty": 2132,
-          "m_bMvpNoMusic": 2114,
-          "m_bPawnHasDefuser": 2080,
-          "m_bPawnHasHelmet": 2081,
-          "m_bPawnIsAlive": 2068,
-          "m_bScoreReported": 2033,
-          "m_eMvpReason": 2116,
-          "m_flForceTeamTime": 1876,
-          "m_flPreviousForceJoinTeamTime": 1888,
-          "m_hObserverPawn": 2064,
-          "m_hOriginalControllerOfCurrentPawn": 2096,
-          "m_hPlayerPawn": 2060,
-          "m_iCoachingTeam": 1912,
-          "m_iCompTeammateColor": 1880,
-          "m_iCompetitiveRankType": 1944,
-          "m_iCompetitiveRanking": 1936,
-          "m_iCompetitiveRankingPredicted_Loss": 1952,
-          "m_iCompetitiveRankingPredicted_Tie": 1956,
-          "m_iCompetitiveRankingPredicted_Win": 1948,
-          "m_iCompetitiveWins": 1940,
-          "m_iDraftIndex": 2016,
-          "m_iMVPs": 2128,
-          "m_iMusicKitID": 2120,
-          "m_iMusicKitMVPs": 2124,
-          "m_iPawnArmor": 2076,
-          "m_iPawnBotDifficulty": 2092,
-          "m_iPawnHealth": 2072,
-          "m_iPawnLifetimeEnd": 2088,
-          "m_iPawnLifetimeStart": 2084,
-          "m_iPendingTeamNum": 1872,
+          "m_bHasControlledBotThisRound": 2073,
+          "m_bIsPlayerNameDirty": 2156,
+          "m_bMvpNoMusic": 2138,
+          "m_bPawnHasDefuser": 2104,
+          "m_bPawnHasHelmet": 2105,
+          "m_bPawnIsAlive": 2092,
+          "m_bScoreReported": 2053,
+          "m_eMvpReason": 2140,
+          "m_eNetworkDisconnectionReason": 2044,
+          "m_flForceTeamTime": 1884,
+          "m_flPreviousForceJoinTeamTime": 1896,
+          "m_hObserverPawn": 2088,
+          "m_hOriginalControllerOfCurrentPawn": 2120,
+          "m_hPlayerPawn": 2084,
+          "m_iCoachingTeam": 1920,
+          "m_iCompTeammateColor": 1888,
+          "m_iCompetitiveRankType": 1952,
+          "m_iCompetitiveRanking": 1944,
+          "m_iCompetitiveRankingPredicted_Loss": 1960,
+          "m_iCompetitiveRankingPredicted_Tie": 1964,
+          "m_iCompetitiveRankingPredicted_Win": 1956,
+          "m_iCompetitiveWins": 1948,
+          "m_iDraftIndex": 2032,
+          "m_iMVPs": 2152,
+          "m_iMusicKitID": 2144,
+          "m_iMusicKitMVPs": 2148,
+          "m_iPawnArmor": 2100,
+          "m_iPawnBotDifficulty": 2116,
+          "m_iPawnHealth": 2096,
+          "m_iPawnLifetimeEnd": 2112,
+          "m_iPawnLifetimeStart": 2108,
+          "m_iPendingTeamNum": 1880,
           "m_iPing": 1856,
-          "m_iScore": 2100,
-          "m_msQueuedModeDisconnectionTimestamp": 2020,
-          "m_nBotsControlledThisRound": 2052,
-          "m_nDisconnectionTick": 2036,
-          "m_nEndMatchNextMapVote": 1960,
-          "m_nFirstKill": 2112,
-          "m_nKillCount": 2113,
-          "m_nPawnCharacterDefIndex": 2082,
-          "m_nPlayerDominated": 1920,
-          "m_nPlayerDominatingMe": 1928,
-          "m_nQuestProgressReason": 1968,
+          "m_iScore": 2124,
+          "m_msQueuedModeDisconnectionTimestamp": 2036,
+          "m_nBotsControlledThisRound": 2076,
+          "m_nDisconnectionTick": 2056,
+          "m_nEndMatchNextMapVote": 1968,
+          "m_nFirstKill": 2136,
+          "m_nKillCount": 2137,
+          "m_nPawnCharacterDefIndex": 2106,
+          "m_nPlayerDominated": 1928,
+          "m_nPlayerDominatingMe": 1936,
+          "m_nQuestProgressReason": 1980,
           "m_pActionTrackingServices": 1840,
           "m_pDamageServices": 1848,
           "m_pInGameMoneyServices": 1824,
           "m_pInventoryServices": 1832,
-          "m_recentKillQueue": 2104,
-          "m_sSanitizedPlayerName": 1904,
-          "m_szClan": 1896,
-          "m_szCrosshairCodes": 1864,
-          "m_uiAbandonRecordedReason": 2024,
-          "m_unActiveQuestId": 1964,
-          "m_unPlayerTvControlFlags": 1972
+          "m_recentKillQueue": 2128,
+          "m_rtActiveMissionPeriod": 1976,
+          "m_sSanitizedPlayerName": 1912,
+          "m_szClan": 1904,
+          "m_szCrosshairCodes": 1872,
+          "m_uiAbandonRecordedReason": 2040,
+          "m_uiCommunicationMuteFlags": 1864,
+          "m_unActiveQuestId": 1972,
+          "m_unPlayerTvControlFlags": 1984
         },
         "metadata": [
           {
@@ -862,6 +846,11 @@
             "name": "m_bHasCommunicationAbuseMute",
             "type": "NetworkVarNames",
             "type_name": "bool"
+          },
+          {
+            "name": "m_uiCommunicationMuteFlags",
+            "type": "NetworkVarNames",
+            "type_name": "uint32"
           },
           {
             "name": "m_szCrosshairCodes",
@@ -947,6 +936,11 @@
             "name": "m_unActiveQuestId",
             "type": "NetworkVarNames",
             "type_name": "uint16"
+          },
+          {
+            "name": "m_rtActiveMissionPeriod",
+            "type": "NetworkVarNames",
+            "type_name": "RTime32"
           },
           {
             "name": "m_nQuestProgressReason",
@@ -1082,6 +1076,11 @@
             "name": "m_iMVPs",
             "type": "NetworkVarNames",
             "type_name": "int"
+          },
+          {
+            "name": "m_bFireBulletsSeedSynchronized",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
           }
         ],
         "parent": "CBasePlayerController"
@@ -1763,6 +1762,11 @@
         ],
         "parent": "CBasePlayerWeaponVData"
       },
+      "CCS_PortraitWorldCallbackHandler": {
+        "fields": {},
+        "metadata": [],
+        "parent": "C_BaseEntity"
+      },
       "CCitadelSoundOpvarSetOBB": {
         "fields": {
           "m_iszOperatorName": 1416,
@@ -2222,6 +2226,50 @@
           }
         ],
         "parent": null
+      },
+      "CEnvSoundscape": {
+        "fields": {
+          "m_OnPlay": 1384,
+          "m_bDisabled": 1524,
+          "m_bOverrideWithEvent": 1440,
+          "m_flRadius": 1424,
+          "m_hProxySoundscape": 1520,
+          "m_positionNames": 1456,
+          "m_soundEventHash": 1536,
+          "m_soundEventName": 1432,
+          "m_soundscapeEntityListId": 1448,
+          "m_soundscapeIndex": 1444,
+          "m_soundscapeName": 1528
+        },
+        "metadata": [],
+        "parent": "C_BaseEntity"
+      },
+      "CEnvSoundscapeAlias_snd_soundscape": {
+        "fields": {},
+        "metadata": [],
+        "parent": "CEnvSoundscape"
+      },
+      "CEnvSoundscapeProxy": {
+        "fields": {
+          "m_MainSoundscapeName": 1544
+        },
+        "metadata": [],
+        "parent": "CEnvSoundscape"
+      },
+      "CEnvSoundscapeProxyAlias_snd_soundscape_proxy": {
+        "fields": {},
+        "metadata": [],
+        "parent": "CEnvSoundscapeProxy"
+      },
+      "CEnvSoundscapeTriggerable": {
+        "fields": {},
+        "metadata": [],
+        "parent": "CEnvSoundscape"
+      },
+      "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable": {
+        "fields": {},
+        "metadata": [],
+        "parent": "CEnvSoundscapeTriggerable"
       },
       "CFuncWater": {
         "fields": {
@@ -2948,6 +2996,21 @@
         "fields": {},
         "metadata": [],
         "parent": "C_BaseEntity"
+      },
+      "CMapInfo": {
+        "fields": {
+          "m_bDisableAutoGeneratedDMSpawns": 1397,
+          "m_bFadePlayerVisibilityFarZ": 1408,
+          "m_bRainTraceToSkyEnabled": 1409,
+          "m_bUseNormalSpawnsForDM": 1396,
+          "m_flBombRadius": 1388,
+          "m_flBotMaxVisionDistance": 1400,
+          "m_iBuyingStatus": 1384,
+          "m_iHostageCount": 1404,
+          "m_iPetPopulation": 1392
+        },
+        "metadata": [],
+        "parent": "C_PointEntity"
       },
       "CModelState": {
         "fields": {
@@ -3778,11 +3841,6 @@
         "metadata": [],
         "parent": "C_Sprite"
       },
-      "CTablet": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_CSWeaponBase"
-      },
       "CTakeDamageInfoAPI": {
         "fields": {},
         "metadata": [
@@ -3846,25 +3904,10 @@
         ],
         "parent": "IntervalTimer"
       },
-      "CTripWireFire": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_BaseCSGrenade"
-      },
-      "CTripWireFireProjectile": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_BaseGrenade"
-      },
       "CWaterSplasher": {
         "fields": {},
         "metadata": [],
         "parent": "C_BaseModelEntity"
-      },
-      "CWeaponZoneRepulsor": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_CSWeaponBaseGun"
       },
       "C_AK47": {
         "fields": {},
@@ -6029,9 +6072,9 @@
       },
       "C_CSGO_PreviewPlayer": {
         "fields": {
-          "m_animgraph": 14896,
-          "m_animgraphCharacterModeString": 14904,
-          "m_flInitialModelScale": 14912
+          "m_animgraph": 14912,
+          "m_animgraphCharacterModeString": 14920,
+          "m_flInitialModelScale": 14928
         },
         "metadata": [],
         "parent": "C_CSPlayerPawn"
@@ -6058,13 +6101,13 @@
       },
       "C_CSGO_TeamPreviewCamera": {
         "fields": {
-          "m_bDofEnabled": 1492,
-          "m_flDofFarBlurry": 1508,
-          "m_flDofFarCrisp": 1504,
-          "m_flDofNearBlurry": 1496,
-          "m_flDofNearCrisp": 1500,
-          "m_flDofTiltToGround": 1512,
-          "m_nVariant": 1488
+          "m_bDofEnabled": 1500,
+          "m_flDofFarBlurry": 1516,
+          "m_flDofFarCrisp": 1512,
+          "m_flDofNearBlurry": 1504,
+          "m_flDofNearCrisp": 1508,
+          "m_flDofTiltToGround": 1520,
+          "m_nVariant": 1496
         },
         "metadata": [],
         "parent": "C_CSGO_MapPreviewCameraPath"
@@ -6162,8 +6205,8 @@
       "C_CSGameRules": {
         "fields": {
           "m_MatchDevice": 168,
-          "m_MinimapVerticalSectionHeights": 3128,
-          "m_RetakeRules": 3488,
+          "m_MinimapVerticalSectionHeights": 3124,
+          "m_RetakeRules": 3496,
           "m_TeamRespawnWaveTimes": 2844,
           "m_arrProhibitedItemIndices": 2244,
           "m_arrTournamentActiveCasterAccounts": 2444,
@@ -6175,7 +6218,7 @@
           "m_bFreezePeriod": 64,
           "m_bGameRestart": 116,
           "m_bHasMatchStarted": 172,
-          "m_bHasTriggeredRoundStartMusic": 3452,
+          "m_bHasTriggeredRoundStartMusic": 3460,
           "m_bIsDroppingItems": 2240,
           "m_bIsHltvActive": 2242,
           "m_bIsQuestEligible": 2241,
@@ -6185,20 +6228,20 @@
           "m_bMapHasBombTarget": 149,
           "m_bMapHasBuyZone": 151,
           "m_bMapHasRescueZone": 150,
-          "m_bMarkClientStopRecordAtRoundEnd": 3280,
+          "m_bMarkClientStopRecordAtRoundEnd": 3288,
           "m_bMatchWaitingForResume": 97,
           "m_bPlayAllStepSoundsOnServer": 162,
-          "m_bRoundEndNoMusic": 3836,
-          "m_bRoundEndShowTimerDefend": 3792,
+          "m_bRoundEndNoMusic": 3844,
+          "m_bRoundEndShowTimerDefend": 3800,
           "m_bServerPaused": 76,
-          "m_bSpawnedTerrorHuntHeavy": 3160,
-          "m_bSwitchingTeamsAtRoundReset": 3453,
+          "m_bSpawnedTerrorHuntHeavy": 3156,
+          "m_bSwitchingTeamsAtRoundReset": 3461,
           "m_bTCantBuy": 2480,
-          "m_bTeamIntroPeriod": 3780,
+          "m_bTeamIntroPeriod": 3788,
           "m_bTechnicalTimeOut": 96,
           "m_bTerroristTimeOutActive": 77,
           "m_bWarmupPeriod": 65,
-          "m_eRoundEndReason": 3788,
+          "m_eRoundEndReason": 3796,
           "m_eRoundWinReason": 2476,
           "m_fMatchStartTime": 104,
           "m_fRoundStartTime": 108,
@@ -6208,7 +6251,7 @@
           "m_flCMMItemDropRevealStartTime": 2232,
           "m_flCTTimeOutRemaining": 84,
           "m_flGameStartTime": 120,
-          "m_flLastPerfSampleTime": 20248,
+          "m_flLastPerfSampleTime": 20256,
           "m_flNextRespawnWave": 2972,
           "m_flRestartRoundTime": 112,
           "m_flTerroristTimeOutRemaining": 80,
@@ -6217,50 +6260,50 @@
           "m_iMatchStats_PlayersAlive_CT": 2604,
           "m_iMatchStats_PlayersAlive_T": 2724,
           "m_iMatchStats_RoundResults": 2484,
-          "m_iNumConsecutiveCTLoses": 3248,
-          "m_iNumConsecutiveTerroristLoses": 3252,
-          "m_iRoundEndFunFactData1": 3812,
-          "m_iRoundEndFunFactData2": 3816,
-          "m_iRoundEndFunFactData3": 3820,
-          "m_iRoundEndFunFactPlayerSlot": 3808,
-          "m_iRoundEndLegacy": 3840,
-          "m_iRoundEndPlayerCount": 3832,
-          "m_iRoundEndTimerTime": 3796,
-          "m_iRoundEndWinnerTeam": 3784,
-          "m_iRoundStartRoundNumber": 3848,
+          "m_iNumConsecutiveCTLoses": 3252,
+          "m_iNumConsecutiveTerroristLoses": 3256,
+          "m_iRoundEndFunFactData1": 3820,
+          "m_iRoundEndFunFactData2": 3824,
+          "m_iRoundEndFunFactData3": 3828,
+          "m_iRoundEndFunFactPlayerSlot": 3816,
+          "m_iRoundEndLegacy": 3848,
+          "m_iRoundEndPlayerCount": 3840,
+          "m_iRoundEndTimerTime": 3804,
+          "m_iRoundEndWinnerTeam": 3792,
+          "m_iRoundStartRoundNumber": 3856,
           "m_iRoundTime": 100,
           "m_iRoundWinStatus": 2472,
           "m_iSpectatorSlotCount": 164,
-          "m_nCTTeamIntroVariant": 3776,
+          "m_nCTTeamIntroVariant": 3784,
           "m_nCTTimeOuts": 92,
-          "m_nEndMatchMapGroupVoteOptions": 3204,
-          "m_nEndMatchMapGroupVoteTypes": 3164,
-          "m_nEndMatchMapVoteWinner": 3244,
+          "m_nEndMatchMapGroupVoteOptions": 3208,
+          "m_nEndMatchMapGroupVoteTypes": 3168,
+          "m_nEndMatchMapVoteWinner": 3248,
           "m_nHalloweenMaskListSeed": 2464,
-          "m_nMatchAbortedEarlyReason": 3448,
-          "m_nMatchEndCount": 3768,
+          "m_nMatchAbortedEarlyReason": 3456,
+          "m_nMatchEndCount": 3776,
           "m_nNextMapInMapgroup": 176,
           "m_nOvertimePlaying": 140,
           "m_nQueuedMatchmakingMode": 156,
-          "m_nRoundEndCount": 3844,
-          "m_nRoundStartCount": 3852,
+          "m_nRoundEndCount": 3852,
+          "m_nRoundStartCount": 3860,
           "m_nRoundsPlayedThisPhase": 136,
-          "m_nServerQuestID": 3100,
-          "m_nTTeamIntroVariant": 3772,
+          "m_nTTeamIntroVariant": 3780,
           "m_nTerroristTimeOuts": 88,
           "m_nTournamentPredictionsPct": 2228,
           "m_numBestOfMaps": 2460,
-          "m_pGameModeRules": 3480,
-          "m_sRoundEndFunFactToken": 3800,
-          "m_sRoundEndMessage": 3824,
+          "m_pGameModeRules": 3488,
+          "m_sRoundEndFunFactToken": 3808,
+          "m_sRoundEndMessage": 3832,
           "m_szMatchStatTxt": 1204,
           "m_szTournamentEventName": 180,
           "m_szTournamentEventStage": 692,
           "m_szTournamentPredictionsTxt": 1716,
           "m_timeUntilNextPhaseStarts": 124,
           "m_totalRoundsPlayed": 132,
-          "m_vMinimapMaxs": 3116,
-          "m_vMinimapMins": 3104
+          "m_ullLocalMatchID": 3160,
+          "m_vMinimapMaxs": 3112,
+          "m_vMinimapMins": 3100
         },
         "metadata": [
           {
@@ -6579,11 +6622,6 @@
             "type_name": "GameTime_t"
           },
           {
-            "name": "m_nServerQuestID",
-            "type": "NetworkVarNames",
-            "type_name": "int"
-          },
-          {
             "name": "m_vMinimapMins",
             "type": "NetworkVarNames",
             "type_name": "Vector"
@@ -6809,110 +6847,110 @@
       },
       "C_CSPlayerPawn": {
         "fields": {
-          "m_ArmorValue": 9220,
-          "m_EconGloves": 5960,
-          "m_GunGameImmunityColor": 8952,
-          "m_PredictedDamageTags": 9376,
-          "m_RetakesMVPBoostExtraUtility": 5920,
+          "m_ArmorValue": 9244,
+          "m_EconGloves": 5992,
+          "m_GunGameImmunityColor": 8976,
+          "m_PredictedDamageTags": 9400,
+          "m_RetakesMVPBoostExtraUtility": 5952,
           "m_aimPunchAngle": 5508,
           "m_aimPunchAngleVel": 5520,
           "m_aimPunchCache": 5544,
           "m_aimPunchTickBase": 5532,
           "m_aimPunchTickFraction": 5536,
-          "m_angShootAngleHistory": 9300,
-          "m_angStashedShootAngles": 9264,
-          "m_bGrenadeParametersStashed": 9260,
-          "m_bHasDeathInfo": 9237,
+          "m_angShootAngleHistory": 9324,
+          "m_angStashedShootAngles": 9288,
+          "m_bGrenadeParametersStashed": 9284,
+          "m_bHasDeathInfo": 9261,
           "m_bHasFemaleVoice": 5456,
           "m_bInBombZone": 5585,
           "m_bInBuyZone": 5504,
           "m_bInHostageRescueZone": 5584,
           "m_bInLanding": 5576,
-          "m_bInNoDefuseArea": 9180,
+          "m_bInNoDefuseArea": 9204,
           "m_bIsBuyMenuOpen": 5586,
-          "m_bIsDefusing": 9170,
-          "m_bIsGrabbingHostage": 9171,
-          "m_bIsScoped": 9168,
-          "m_bIsWalking": 9056,
-          "m_bKilledByHeadshot": 9217,
-          "m_bLastHeadBoneTransformIsValid": 8824,
-          "m_bLeftHanded": 8873,
-          "m_bMustSyncRagdollState": 7057,
-          "m_bNeedToReApplyGloves": 5952,
-          "m_bOldIsScoped": 9236,
-          "m_bOnGroundLastTick": 8832,
+          "m_bIsDefusing": 9194,
+          "m_bIsGrabbingHostage": 9195,
+          "m_bIsScoped": 9192,
+          "m_bIsWalking": 9080,
+          "m_bKilledByHeadshot": 9241,
+          "m_bLastHeadBoneTransformIsValid": 8848,
+          "m_bLeftHanded": 8897,
+          "m_bMustSyncRagdollState": 7089,
+          "m_bNeedToReApplyGloves": 5984,
+          "m_bOldIsScoped": 9260,
+          "m_bOnGroundLastTick": 8856,
           "m_bPrevDefuser": 5486,
           "m_bPrevHelmet": 5487,
           "m_bPreviouslyInBuyZone": 5505,
-          "m_bRagdollDamageHeadshot": 7152,
-          "m_bResumeZoom": 9169,
-          "m_bRetakesHasDefuseKit": 5912,
-          "m_bRetakesMVPLastRound": 5913,
-          "m_bSkipOneHeadConstraintUpdate": 8872,
-          "m_bWaitForNoAttack": 9208,
-          "m_entitySpottedState": 9144,
-          "m_fSwitchedHandednessTime": 8876,
-          "m_flDeathInfoTime": 9240,
-          "m_flEmitSoundTime": 9176,
-          "m_flFlinchStack": 9192,
+          "m_bRagdollDamageHeadshot": 7184,
+          "m_bResumeZoom": 9193,
+          "m_bRetakesHasDefuseKit": 5944,
+          "m_bRetakesMVPLastRound": 5945,
+          "m_bSkipOneHeadConstraintUpdate": 8896,
+          "m_bWaitForNoAttack": 9232,
+          "m_entitySpottedState": 9168,
+          "m_fSwitchedHandednessTime": 8900,
+          "m_flDeathInfoTime": 9264,
+          "m_flEmitSoundTime": 9200,
+          "m_flFlinchStack": 9216,
           "m_flHealthShotBoostExpirationTime": 5448,
-          "m_flHitHeading": 9200,
+          "m_flHitHeading": 9224,
           "m_flLandingStartTime": 5580,
           "m_flLandingTimeSeconds": 5460,
           "m_flLastFiredWeaponTime": 5452,
           "m_flNextSprayDecalTime": 5592,
           "m_flOldFallVelocity": 5464,
-          "m_flSlopeDropHeight": 9104,
-          "m_flSlopeDropOffset": 9088,
+          "m_flSlopeDropHeight": 9128,
+          "m_flSlopeDropOffset": 9112,
           "m_flTimeOfLastInjury": 5588,
-          "m_flVelocityModifier": 9196,
-          "m_flViewmodelFOV": 8892,
-          "m_flViewmodelOffsetX": 8880,
-          "m_flViewmodelOffsetY": 8884,
-          "m_flViewmodelOffsetZ": 8888,
-          "m_grenadeParameterStashTime": 9256,
-          "m_iBlockingUseActionInProgress": 9172,
-          "m_iRetakesMVPBoostItem": 5916,
-          "m_iRetakesOffering": 5904,
-          "m_iRetakesOfferingCard": 5908,
-          "m_iShotsFired": 9188,
-          "m_ignoreLadderJumpTime": 9212,
-          "m_lastLandTime": 8828,
-          "m_nEconGlovesChanged": 7056,
-          "m_nHighestAppliedDamageTagTick": 9460,
-          "m_nHitBodyPart": 9204,
-          "m_nLastKillerIndex": 9232,
+          "m_flVelocityModifier": 9220,
+          "m_flViewmodelFOV": 8916,
+          "m_flViewmodelOffsetX": 8904,
+          "m_flViewmodelOffsetY": 8908,
+          "m_flViewmodelOffsetZ": 8912,
+          "m_grenadeParameterStashTime": 9280,
+          "m_iBlockingUseActionInProgress": 9196,
+          "m_iRetakesMVPBoostItem": 5948,
+          "m_iRetakesOffering": 5936,
+          "m_iRetakesOfferingCard": 5940,
+          "m_iShotsFired": 9212,
+          "m_ignoreLadderJumpTime": 9236,
+          "m_lastLandTime": 8852,
+          "m_nEconGlovesChanged": 7088,
+          "m_nHighestAppliedDamageTagTick": 9484,
+          "m_nHitBodyPart": 9228,
+          "m_nLastKillerIndex": 9256,
           "m_nPrevArmorVal": 5488,
           "m_nPrevGrenadeAmmoCount": 5492,
-          "m_nPrevHighestReceivedDamageTagTick": 9456,
-          "m_nRagdollDamageBone": 7060,
-          "m_nWhichBombZone": 9184,
+          "m_nPrevHighestReceivedDamageTagTick": 9480,
+          "m_nRagdollDamageBone": 7092,
+          "m_nWhichBombZone": 9208,
           "m_pActionTrackingServices": 5432,
           "m_pBulletServices": 5400,
           "m_pBuyServices": 5416,
           "m_pDamageReactServices": 5440,
           "m_pGlowServices": 5424,
           "m_pHostageServices": 5408,
-          "m_qDeathEyeAngles": 8860,
+          "m_qDeathEyeAngles": 8884,
           "m_szLastPlaceName": 5468,
-          "m_szRagdollDamageWeaponName": 7088,
-          "m_thirdPersonHeading": 9064,
-          "m_unCurrentEquipmentValue": 9224,
-          "m_unFreezetimeEndEquipmentValue": 9228,
+          "m_szRagdollDamageWeaponName": 7120,
+          "m_thirdPersonHeading": 9088,
+          "m_unCurrentEquipmentValue": 9248,
+          "m_unFreezetimeEndEquipmentValue": 9252,
           "m_unPreviousWeaponHash": 5496,
-          "m_unRoundStartEquipmentValue": 9226,
+          "m_unRoundStartEquipmentValue": 9250,
           "m_unWeaponHash": 5500,
-          "m_vHeadConstraintOffset": 9120,
-          "m_vRagdollDamageForce": 7064,
-          "m_vRagdollDamagePosition": 7076,
-          "m_vRagdollServerOrigin": 7156,
-          "m_vecBulletHitModels": 9032,
-          "m_vecDeathInfoOrigin": 9244,
-          "m_vecPlayerPatchEconIndices": 8896,
-          "m_vecStashedGrenadeThrowPosition": 9276,
-          "m_vecStashedVelocity": 9288,
-          "m_vecThrowPositionHistory": 9324,
-          "m_vecVelocityHistory": 9348
+          "m_vHeadConstraintOffset": 9144,
+          "m_vRagdollDamageForce": 7096,
+          "m_vRagdollDamagePosition": 7108,
+          "m_vRagdollServerOrigin": 7188,
+          "m_vecBulletHitModels": 9056,
+          "m_vecDeathInfoOrigin": 9268,
+          "m_vecPlayerPatchEconIndices": 8920,
+          "m_vecStashedGrenadeThrowPosition": 9300,
+          "m_vecStashedVelocity": 9312,
+          "m_vecThrowPositionHistory": 9348,
+          "m_vecVelocityHistory": 9372
         },
         "metadata": [
           {
@@ -9742,25 +9780,6 @@
         ],
         "parent": "CBaseAnimGraph"
       },
-      "C_Fists": {
-        "fields": {
-          "m_bPlayingUninterruptableAct": 6944,
-          "m_nUninterruptableActivity": 6948
-        },
-        "metadata": [
-          {
-            "name": "m_bPlayingUninterruptableAct",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_nUninterruptableActivity",
-            "type": "NetworkVarNames",
-            "type_name": "PlayerAnimEvent_t"
-          }
-        ],
-        "parent": "C_CSWeaponBase"
-      },
       "C_Flashbang": {
         "fields": {},
         "metadata": [],
@@ -10730,11 +10749,6 @@
           }
         ],
         "parent": "C_BaseEntity"
-      },
-      "C_Melee": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_CSWeaponBase"
       },
       "C_ModelPointEntity": {
         "fields": {},
@@ -11988,18 +12002,23 @@
       },
       "C_PointWorldText": {
         "fields": {
-          "m_Color": 3984,
-          "m_FontName": 3904,
-          "m_bEnabled": 3968,
+          "m_BackgroundMaterialName": 3976,
+          "m_Color": 4072,
+          "m_FontName": 3912,
+          "m_bDrawBackground": 4056,
+          "m_bEnabled": 4040,
           "m_bForceRecreateNextUpdate": 3376,
-          "m_bFullbright": 3969,
-          "m_flDepthOffset": 3980,
-          "m_flFontSize": 3976,
-          "m_flWorldUnitsPerPx": 3972,
-          "m_messageText": 3392,
-          "m_nJustifyHorizontal": 3988,
-          "m_nJustifyVertical": 3992,
-          "m_nReorientMode": 3996
+          "m_bFullbright": 4041,
+          "m_flBackgroundBorderHeight": 4064,
+          "m_flBackgroundBorderWidth": 4060,
+          "m_flBackgroundWorldToUV": 4068,
+          "m_flDepthOffset": 4052,
+          "m_flFontSize": 4048,
+          "m_flWorldUnitsPerPx": 4044,
+          "m_messageText": 3400,
+          "m_nJustifyHorizontal": 4076,
+          "m_nJustifyVertical": 4080,
+          "m_nReorientMode": 4084
         },
         "metadata": [
           {
@@ -12009,6 +12028,11 @@
           },
           {
             "name": "m_FontName",
+            "type": "NetworkVarNames",
+            "type_name": "char"
+          },
+          {
+            "name": "m_BackgroundMaterialName",
             "type": "NetworkVarNames",
             "type_name": "char"
           },
@@ -12034,6 +12058,26 @@
           },
           {
             "name": "m_flDepthOffset",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_bDrawBackground",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_flBackgroundBorderWidth",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_flBackgroundBorderHeight",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_flBackgroundWorldToUV",
             "type": "NetworkVarNames",
             "type_name": "float"
           },
@@ -12543,16 +12587,6 @@
         },
         "metadata": [],
         "parent": null
-      },
-      "C_SensorGrenade": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_BaseCSGrenade"
-      },
-      "C_SensorGrenadeProjectile": {
-        "fields": {},
-        "metadata": [],
-        "parent": "C_BaseCSGrenadeProjectile"
       },
       "C_ShatterGlassShardPhysics": {
         "fields": {
@@ -13706,19 +13740,6 @@
         "fields": {},
         "metadata": [],
         "parent": "C_CSWeaponBase"
-      },
-      "C_WeaponShield": {
-        "fields": {
-          "m_flDisplayHealth": 6976
-        },
-        "metadata": [
-          {
-            "name": "m_flDisplayHealth",
-            "type": "NetworkVarNames",
-            "type_name": "float"
-          }
-        ],
-        "parent": "C_CSWeaponBaseGun"
       },
       "C_WeaponTaser": {
         "fields": {
