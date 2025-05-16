@@ -10,9 +10,31 @@ import Function.AutoPistol as AutoPistol
 import Function.RecoilControl as RecoilControl
 import Function.BunnyHop as BunnyHop
 import SDK.GameVar as GameVar
-import os
-import signal
-import threading
+
+import threading, signal, sys, os, webbrowser, requests, time, atexit, shutil, glob
+
+def cleanup_pycache():
+    ctt=0
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    parent_dir = os.path.dirname(base_dir)
+
+    sibling_dirs = [os.path.join(parent_dir, d) for d in os.listdir(parent_dir) 
+                   if os.path.isdir(os.path.join(parent_dir, d))]
+    
+    print("Сбрасываю хвосты...")
+    for dir_path in sibling_dirs:
+        ctt+=1
+        for pycache_path in glob.glob(os.path.join(dir_path, "**", "__pycache__"), recursive=True):
+            try:
+                shutil.rmtree(pycache_path)
+                print(f"Удалил: Файл номер {ctt}")
+            except Exception as e:
+                print(f"Неудачно удалил {pycache_path}: {e}")
+    print("Готово")
+
+
+
+
 
 class Widget:
     def __init__(self):
@@ -336,4 +358,5 @@ class Widget:
         
         self.impl.shutdown()
         glfw.terminate()
+        cleanup_pycache()
         os.kill(os.getpid(), signal.SIGTERM)
